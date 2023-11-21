@@ -12,7 +12,7 @@ const addNewCard = () => {
     TaskTitle: document.getElementById("taskTitle").value,
     TaskType: document.getElementById("taskType").value,
     TaskDesc: document.getElementById("taskDesc").value,
-  };
+  }; 
 
   globalTaskData.push(myCard);
 
