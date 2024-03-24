@@ -64,6 +64,8 @@ const LoadExistingCard = () => {
   const TaskCards = JSON.parse(getData);
   globalTaskData = TaskCards.cards;
 
+  
+  
   globalTaskData.map((myCard) => {
     // map copies the array
     const cardInfo = ` <div class="col-md-6 col-lg-4 mt-3 mb-3" id=${myCard.id}>
