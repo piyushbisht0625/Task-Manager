@@ -7,7 +7,7 @@ const addNewCard = () => {
     id: `${Date.now()}`, //  it always gives the unique value    
 
     
-    image: document.getElementById("imgurl").value,
+    image: document.getElementById("imgurl").value, 
     TaskTitle: document.getElementById("taskTitle").value,
     TaskType: document.getElementById("taskType").value,
     TaskDesc: document.getElementById("taskDesc").value,
