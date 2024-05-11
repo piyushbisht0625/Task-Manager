@@ -4,7 +4,7 @@ let globalTaskData = [];
 const addNewCard = () => { 
    
   const myCard = {
-    id: `${Date.now()}`, //  it always gives the unique value    
+    id: `${Date.now()}`, //  it always gives the unique value     
 
       
     image: document.getElementById("imgurl").value, 
