@@ -10,7 +10,7 @@ const addNewCard = () => {
        
     image: document.getElementById("imgurl").value, 
     TaskTitle: document.getElementById("taskTitle").value,
-    TaskType: document.getElementById("taskType").value,
+    TaskType: document.getElementById("taskType").v alue,
     TaskDesc: document.getElementById("taskDesc").value,
   };  
 
