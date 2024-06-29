@@ -2,7 +2,7 @@
 let globalTaskData = [];  
 
 
-const addNewCard = () => {  
+const addNewCard = () => {   
  
    
   const myCard = { 
