@@ -2,7 +2,7 @@
 const taskContiner = document.querySelector(".task_container");
 let globalTaskData = [];  
 
-
+ 
 const addNewCard = () => {   
  
    
