@@ -3,7 +3,7 @@ const taskContiner = document.querySelector(".task_container");
 let globalTaskData = [];   
  
  
-const addNewCard = () => {   
+const addNewCard = () => {    
     
   const myCard = { 
     id: `${Date.now()}`, //  it always gives the unique value     
